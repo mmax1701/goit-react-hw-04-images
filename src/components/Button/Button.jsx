@@ -5,8 +5,8 @@ export const Button = ({ onClick }) => {
   return (
     <div className={css.button_wrap}>
       <button onClick={onClick} type="button" className={css.button}>
-      Load More
-    </button>
+        Load More
+      </button>
     </div>
   );
 };
